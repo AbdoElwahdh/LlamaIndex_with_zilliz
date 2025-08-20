@@ -1,0 +1,47 @@
+# Compiled Java files
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven generated directories
+/target/
+/pom.xml.tag
+/pom.xml.versionsBackup
+/pom.xml.next
+/release.properties
+/dependency-reduced-pom.xml
+/build/
+
+# IDE specific files
+.idea/
+.classpath
+.project
+.settings/
+.vscode/
+*.iml
+*.iws
+*.ipr
+nbproject/
+.DS_Store # macOS files
+Thumbs.db # Windows files
+
+# Docker and container-related generated data
+# We ignore the contents of 'volumes/' but allow the directories to be tracked
+volumes/*
+volumes/milvus/*
+volumes/minio/*
+
+# Environment variables files
+.env
+.env.*
+
+# Log files
+*.log
+logs/
+
+# Temporary files
+*~
+# Backup files
+*.bak
+*.swp
